@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App flex flex-col items-center ">
-      <h1>i2i</h1>
+      <h1>i2i - Welcome</h1>
     </div>
   )
 }
