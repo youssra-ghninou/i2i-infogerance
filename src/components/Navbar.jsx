@@ -9,7 +9,7 @@ const Navbar = () => {
     const [showNav,setShowNav] = useState(false)
 
     return (
-        <nav className="flex sticky top-0 h-14 items-center bg-white justify-between lg:items-center">
+        <nav className="flex sticky z-50 top-0 h-14 items-center bg-white justify-between lg:items-center">
             <div className="w-1/12">
                 <img src={Logo} alt="logo" />
             </div>
