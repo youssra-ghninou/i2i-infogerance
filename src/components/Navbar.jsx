@@ -1,4 +1,4 @@
-import Logo from '../images/logo.jpg'
+import Logo from '/images/logo.jpg'
 import { AiOutlineMenuFold } from 'react-icons/ai';
 
 const Navbar = () => {

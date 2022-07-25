@@ -1,6 +1,6 @@
-import Microsoft from '../images/microsoft.png'
-import Google from '../images/google.png'
-import Spotify from '../images/spotify.png'
+import Microsoft from '/images/microsoft.png'
+import Google from '/images/google.png'
+import Spotify from '/images/spotify.png'
 
 const Clients = () => {
     return (

@@ -1,5 +1,5 @@
 import SliderButton from '../buttons/SliderButtons'
-import Jamila from '../../images/team.png'
+import Jamila from '/images/team.png'
 const TeamCard = () => {
     return (
         <div className="flex flex-col gap-2">

@@ -3,7 +3,7 @@ import ProjectsCard from "./cards/ProjectsCard"
 
 const Projects = () => {
     return (
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-14">
             <div className="card-title flex flex-col gap-3">
                 <div className="text-primary font-bold text-sm">
                     The work we realised
