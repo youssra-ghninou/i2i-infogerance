@@ -17,7 +17,7 @@ function App() {
         <Teams />
         <Projects />
       </div>
-        <div className="h">
+        <div className="z-10">
           <Footer />
         </div>
     </div>

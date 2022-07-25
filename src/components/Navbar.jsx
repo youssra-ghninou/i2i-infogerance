@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="w-1/12">
                 <img src={Logo} alt="logo" />
             </div>
-            <div className={(showNav ? "left-0" : "-left-full") + " transition-left fixed flex flex-col items-center  gap-8 text-xl justify-center top-0 left-0 bg-dark text-white h-screen w-10/12 lg:flex lg:gap-5 first-letter:lg:text-gray lg:text-[16px] md:text-bold lg:font-semibold"}>
+            <div className={(showNav ? "left-0 z-10" : "-left-full") + " transition-left fixed flex flex-col items-center  gap-8 text-xl justify-center top-0 left-0 bg-dark text-white h-screen w-10/12 lg:flex lg:gap-5 first-letter:lg:text-gray lg:text-[16px] md:text-bold lg:font-semibold"}>
                 <div className="flex items-center gap-3 w-40">
                     <AiOutlineHome />
                     <NavIttem content="Home" href="/" className=""/>
