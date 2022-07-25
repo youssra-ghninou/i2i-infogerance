@@ -40,7 +40,9 @@ const Navbar = () => {
                     Get a quote
                 </button>
             <button className="menu lg:hidden">
+            <IconContext.Provider value={{className: "text-2xl" }}>
                  <AiOutlineMenuFold />
+            </IconContext.Provider>
             </button>
         </nav>
     );
