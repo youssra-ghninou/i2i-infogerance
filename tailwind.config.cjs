@@ -15,8 +15,11 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+      },
+      transitionProperty: {
+        'left': 'left',
       }
-        },
+    },
 
   },
   plugins: [],
