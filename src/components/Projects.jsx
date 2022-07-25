@@ -14,7 +14,7 @@ const Projects = () => {
             </div>
             <ProjectsCard />
             <div className="self-center ">
-                <ProjectsButton/>
+                <ProjectsButton text="Explore More Projects"/>
             </div>
         </div>
     );

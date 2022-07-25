@@ -1,10 +1,10 @@
-import { IconContext } from "react-icons";
-import { AiOutlineArrowRight } from 'react-icons/ai';
+import CheckServicesButton from "./buttons/CheckServicesButton";
 import TalkButton from "./buttons/TalkButton"
 
 const Header = () => {
     return (
-        <div className="flex  flex-col w-full pt-5 justify-center font-poppins gap-5">
+        <div className="flex">
+        <div className="flex flex-1 flex-col w-full pt-5 justify-center font-poppins gap-5">
             <div className="text-primary font-bold text-sm">
                 Hello,
             </div>
@@ -14,13 +14,14 @@ const Header = () => {
             <h2 className="font-normal text-gray text-base">
             A talented team to help you in your journey on creating usefull and easy to use product
             </h2>
-            <TalkButton />
-            <div className="flex items-center justify-center gap-2">
-                <div className="font-bold text-base text-text">Check our Services</div>
-                <IconContext.Provider value={{className: "text-primary text-xl" }}>
-                    <AiOutlineArrowRight /> 
-                </IconContext.Provider>
+            <div className="flex flex-col gap-3 lg:flex-row lg:gap-3">
+                <TalkButton text="Lets talk" className="bg-red-500" />
+                <CheckServicesButton text="Check our Services" />
             </div>
+        </div>
+        <div className="lg:flex-1 hidden lg:flex">
+            
+        </div>
         </div>
     );
 }

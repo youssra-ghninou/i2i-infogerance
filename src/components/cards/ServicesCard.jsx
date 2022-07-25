@@ -37,7 +37,7 @@ const ServicesCard = () => {
                     <div className="text-gray font-normal text-base">
                         {content}
                     </div>
-                    <ServicesButton />
+                    <ServicesButton text="Learn More" />
                 </div>
             );
         })}
