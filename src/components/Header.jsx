@@ -8,13 +8,13 @@ import Arrow from '/images/arrow.png'
 
 const Header = () => {
     return (
-        <div className="flex md:grid md:grid-cols-2 ">
+        <div className="flex md:grid md:grid-cols-2">
             <div className="flex flex-1 flex-col w-full pt-5 justify-center gap-5 md:relative">
                 <img src={Arrow} alt="" className="hidden lg:block md:absolute md:bottom-12 md:-left-12 md:-z-10 md:w-[55px] "/>
-                <div className="text-primary font-bold  text-sm">
+                <div className="text-primary font-bold text-sm dark:text-gray transition duration-500">
                     Hello,
                 </div>
-                <div className="text-text font-bold text-4xl">
+                <div className="text-text font-bold text-4xl dark:text-white transition duration-500">
                     We Help People To Bring Their Ideas Alive 
                 </div>
                 <h2 className="font-normal text-gray text-base">
@@ -25,9 +25,9 @@ const Header = () => {
                     <CheckServicesButton text="Check our Services" />
                 </div>
             </div>
-            <div className=" hidden md:block md:relative">
-                <img src={HeaderImage} alt="" />
-                <img src={Titik} alt="" className="md:absolute md:bottom-0 md:right-0 md:-z-10"/>
+            <div className=" hidden md:block md:relative lg:overflow-x-clip">
+                <img src={Titik} alt="" className="md:absolute md:-bottom-6 md:w-8/12 md:-right-8 "/>
+                <img src={HeaderImage} alt="" className="md:absolute"/>
             </div>
         </div>
     );

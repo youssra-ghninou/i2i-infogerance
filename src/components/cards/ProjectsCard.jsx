@@ -31,14 +31,14 @@ const ProjectsCard = () => {
       },
     ];  
         return (
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-10 md:grid md:grid-cols-2 lg:grid-cols-3">
                 {projects.map(({id,title,content,image}) => {
                 return(
                     <div key={id} className="flex flex-col gap-2">
                         <div className=" ">
                             <img className="" src={image} alt={content} />
                         </div>
-                        <div className="text-primary font-bold text-xl">
+                        <div className="text-primary font-bold text-xl dark:text-white transition duration-500">
                             {title}
                         </div>
                         <div className="text-gray font-normal text-base">

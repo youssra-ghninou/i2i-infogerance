@@ -4,12 +4,12 @@ import { IconContext } from "react-icons";
 const SliderButton = () => {
     return (
         <div className="text-primary w-full flex justify-center items-center gap-5">
-            <button className="rounded-full bg-transparent border-2 p-2 border-primary border-solid">
+            <button className="rounded-full bg-transparent border-2 p-2 border-primary border-solid dark:bg-primary dark:text-white transition duration-500">
             <IconContext.Provider value={{className: "text-2xl" }}>
                 <IoIosArrowRoundBack />
             </IconContext.Provider>
             </button>
-            <button className="rounded-full bg-transparent border-2 p-2 border-primary border-solid">
+            <button className="rounded-full bg-transparent border-2 p-2 border-primary border-solid dark:bg-primary dark:text-white transition duration-500">
             <IconContext.Provider value={{className: "text-2xl" }}>
                 <IoIosArrowRoundForward />
             </IconContext.Provider>

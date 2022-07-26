@@ -10,7 +10,7 @@ const TeamCard = (props) => {
                 className='hidden md:block md:absolute md:-z-10 
                             md:right-6 md:-top-5 md:w-2/3'/>
             </div>
-            <div className="text-dark font-bold text-base">
+            <div className="text-dark font-bold text-base dark:text-white transition duration-500">
                 Jamila Smail
             </div>
             <div className="text-gray text-sm">
