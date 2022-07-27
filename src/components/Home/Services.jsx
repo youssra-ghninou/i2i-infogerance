@@ -1,4 +1,4 @@
-import ServicesCard from "./cards/ServicesCard";
+import ServicesCard from "../cards/ServicesCard";
 
 const Services = () => {
     return (

@@ -1,11 +1,11 @@
-import Navbar from "./components/Navbar"
-import Header from "./components/Header"
-import Clients from "./components/Clients"
-import Services from "./components/Services"
-import Teams from "./components/Teams"
-import Projects from "./components/Projects"
-import Footer from "./components/Footer"
-import Testimonial from "./components/Testimonial"
+import Navbar from "./components/Home/Navbar"
+import Header from "./components/Home/Header"
+import Clients from "./components/Home/Clients"
+import Services from "./components/Home/Services"
+import Teams from "./components/Home/Teams"
+import Projects from "./components/Home/Projects"
+import Footer from "./components/Home/Footer"
+import Testimonial from "./components/Home/Testimonial"
 
 function App() {
   return (

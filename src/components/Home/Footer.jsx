@@ -1,6 +1,6 @@
 import { IoIosSend } from 'react-icons/io';
 import { FiDribbble, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
-import NavIttem from './navitems/NavIttem';
+import NavIttem from '../navitems/NavIttem';
 
 const Footer = () => {
     return (

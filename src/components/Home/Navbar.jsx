@@ -2,9 +2,11 @@ import Logo from '/images/logo.jpg'
 import { AiOutlineClose, AiOutlineContacts, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMenuFold, AiOutlineTeam } from 'react-icons/ai';
 import { MdOutlineCleaningServices } from 'react-icons/md';
 import { IconContext } from "react-icons";
-import NavIttem from './navitems/NavIttem';
+import NavIttem from '../navitems/NavIttem';
 import { useState } from 'react';
-import DarkModeToggle from './buttons/DarkModeToggle';
+import DarkModeToggle from '../buttons/DarkModeToggle';
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
     const [showNav,setShowNav] = useState(false)
@@ -14,14 +16,14 @@ const Navbar = () => {
             <div className="w-1/12">
                 <img src={Logo} alt="logo" />
             </div>
-            <div className={(showNav ? "left-0 z-10" : "-left-full transition-left") + "  fixed flex flex-col items-center lg:hidden gap-8 text-xl justify-center top-0 left-0 bg-white text-dark  dark:text-white dark:bg-dark h-screen w-10/12 lg:flex lg:gap-5 first-letter:lg:text-gray lg:text-[16px] md:text-bold lg:font-semibold duration-500"}>
+            <div className={(showNav ? "left-0 z-10" : "-left-full transition-left") + "  fixed flex flex-col items-center lg:hidden gap-8 text-xl justify-center top-0 left-0 bg-white text-dark  dark:text-white dark:bg-dark h-screen w-10/12 lg:gap-5 first-letter:lg:text-gray lg:text-[16px] md:text-bold lg:font-semibold duration-500"}>
                 <div className="flex items-center gap-3 w-40">
                     <AiOutlineHome />
                     <NavIttem content="Home" href="/" className=""/>
                 </div>
                 <div className="flex items-center gap-3 w-40">
                     <AiOutlineTeam />
-                    <NavIttem content="Who are We" href="/" className=""/>
+                    <Link to="/whoarewe">Who Are We?</Link> |{" "}               
                 </div>
                 <div className="flex items-center gap-3 w-40">
                     <MdOutlineCleaningServices />
@@ -40,8 +42,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="hidden lg:flex flex-row items-center gap-6 text-sm justify-cente bg-white text-dark  dark:text-white dark:bg-dark lg:text-[16px] lg:font-semibold transition duration-500">
-                    <NavIttem content="Home" href="/" className="text-lg "/>
-                    <NavIttem content="Who are We" href="/" className="text-lg text-gray"/>
+                    <Link to="/">Home</Link>               
+                    <Link to="/whoarewe">Who Are We?</Link>               
                     <NavIttem content="Our Services" href="/" className="text-lg text-gray"/>
                     <NavIttem content="Our Projects" href="/" className="text-lg text-gray"/>
                     <NavIttem content="Contact Us" href="/" className="text-lg text-gray"/>

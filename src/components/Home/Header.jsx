@@ -1,5 +1,5 @@
-import CheckServicesButton from "./buttons/CheckServicesButton";
-import TalkButton from "./buttons/TalkButton"
+import CheckServicesButton from "../buttons/CheckServicesButton";
+import TalkButton from "../buttons/TalkButton"
 import HeaderImage from '/images/header.png'
 import Titik from '/images/Titik-titik.png'
 import Arrow from '/images/arrow.png'

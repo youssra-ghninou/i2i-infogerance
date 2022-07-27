@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useDarkeMode = () => {
-    const [theme,setTheme] = useState('dark');
+    const [theme,setTheme] = useState('light');
     const colorTheme = theme === "dark" ? "light" : "dark";
         useEffect(() => {
             const root = window.document.documentElement;
