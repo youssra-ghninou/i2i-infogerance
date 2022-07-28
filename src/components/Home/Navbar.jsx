@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex items-center gap-3 w-40">
                     <AiOutlineTeam />
-                    <Link to="/whoarewe">Who Are We?</Link> |{" "}               
+                    <Link to="/whoarewe">Who Are We?</Link>{" "}               
                 </div>
                 <div className="flex items-center gap-3 w-40">
                     <MdOutlineCleaningServices />
