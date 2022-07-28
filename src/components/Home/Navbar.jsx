@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex items-center gap-3 w-40">
                     <MdOutlineCleaningServices />
-                    <NavIttem content="Our Services" href="/" className=""/>
+                    <Link to="/ourservices">Our Services</Link>       
                 </div>
                 <div className="flex items-center gap-3 w-40">
                     <AiOutlineFundProjectionScreen />
@@ -43,8 +43,8 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex flex-row items-center gap-6 text-sm justify-cente bg-white text-dark  dark:text-white dark:bg-dark lg:text-[16px] lg:font-semibold transition duration-500">
                     <Link to="/">Home</Link>               
-                    <Link to="/whoarewe">Who Are We?</Link>               
-                    <NavIttem content="Our Services" href="/" className="text-lg text-gray"/>
+                    <Link to="/whoarewe">Who Are We?</Link>       
+                    <Link to="/ourservices">Our Services</Link>       
                     <NavIttem content="Our Projects" href="/" className="text-lg text-gray"/>
                     <NavIttem content="Contact Us" href="/" className="text-lg text-gray"/>
                     

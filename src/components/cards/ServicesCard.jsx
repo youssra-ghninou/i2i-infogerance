@@ -33,22 +33,22 @@ const ServicesCard = () => {
       },
     ];
     return (
-        <div className="flex flex-col gap-11 md:grid md:grid-cols-2">
-            {services.map(({id,title,content}) => {
-            return(
-                <div key={id} className="flex flex-col p-2 gap-2 shadow-sm rounded-lg hover:shadow-red-500/40 shadow-blue-500/50">
-                    <div className="text-primary font-bold text-xl dark:text-white duration-500 transition">
-                        {title}
-                    </div>
-                    <div className="text-gray font-normal text-base">
-                        {content}
-                    </div>
-                    <ServicesButton text="Learn More" />
-                </div>
-            );
-        })}
-        </div>
-    );
+      <div className="flex flex-col gap-11 md:grid md:grid-cols-2">
+          {services.map(({id,title,content}) => {
+          return(
+              <div key={id} className="flex flex-col p-2 gap-2 shadow-sm rounded-lg hover:shadow-red-500/40 shadow-blue-500/50">
+                  <div className="text-primary font-bold text-xl dark:text-white duration-500 transition">
+                      {title}
+                  </div>
+                  <div className="text-gray font-normal text-base">
+                      {content}
+                  </div>
+                  <ServicesButton text="Learn More" />
+              </div>
+          );
+      })}
+      </div>
+  );
 }
  
 export default ServicesCard;
