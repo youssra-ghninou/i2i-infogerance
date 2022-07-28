@@ -1,4 +1,4 @@
-import Logo from '/images/logo.jpg'
+import Logo from '/images/logo.svg'
 import { AiOutlineClose, AiOutlineContacts, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMenuFold, AiOutlineTeam } from 'react-icons/ai';
 import { MdOutlineCleaningServices } from 'react-icons/md';
 import { IconContext } from "react-icons";
@@ -14,6 +14,7 @@ const Navbar = () => {
     return (
         <nav className="flex dark:bg-dark transition duration-500 lg:mb-20 lg:py-10 dark:text-white sticky z-50 top-0 h-14 items-center bg-white justify-between lg:items-center">
             <div className="w-1/12">
+
                 <img src={Logo} alt="logo" />
             </div>
             <div className={(showNav ? "left-0 z-10" : "-left-full transition-left") + "  fixed flex flex-col items-center lg:hidden gap-8 text-xl justify-center top-0 left-0 bg-white text-dark  dark:text-white dark:bg-dark h-screen w-10/12 lg:gap-5 first-letter:lg:text-gray lg:text-[16px] md:text-bold lg:font-semibold duration-500"}>
