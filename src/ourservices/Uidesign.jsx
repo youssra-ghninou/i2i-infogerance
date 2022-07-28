@@ -1,5 +1,5 @@
-import TeamCard from "../components/cards/TeamCard";
-
+import OurServiceCard from "../components/cards/OurServiceCard";
+ 
 const UiDesign = () => {
     return ( 
     <div className="flex flex-col my-20 gap-3 md:flex-row md:grid md:grid-cols-2 md:gap-12 ">
@@ -14,7 +14,7 @@ const UiDesign = () => {
       With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users
       </div>
       </div>
-      <TeamCard className=""/>
+      <OurServiceCard className=""/>
     </div>
      );
 }
