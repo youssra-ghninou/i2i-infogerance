@@ -1,6 +1,6 @@
 const OurProcess = () => {
     return ( 
-        <div className="flex pb-14 ">
+        <div className="flex pb-14 md:py-10">
         <div className="flex flex-1 flex-col w-full pt-5 justify-center gap-5 md:relative lg:justify-center lg:items-center lg:text-center lg:flex-row lg:gap-5 ">
             <div className="desktopdiv flex flex-col gap-3 text-left ">
                 <div className="text-primary font-bold text-sm dark:text-white transition duration-500">

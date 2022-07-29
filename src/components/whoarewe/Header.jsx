@@ -6,7 +6,7 @@ import Arrow from '/images/arrow.png'
 
 const Header = () => {
     return (  
-        <div className="flex  ">
+        <div className="flex md:py-10">
             <div className="flex flex-1 flex-col w-full pt-5 justify-center gap-5 md:relative lg:justify-center lg:items-center lg:px-40 lg:text-center">
                 <div className="text-primary font-bold text-sm dark:text-gray transition duration-500">
                     About Us

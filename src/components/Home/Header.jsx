@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className="flex md:grid md:grid-cols-2">
             <div className="flex flex-1 flex-col w-full pt-5 justify-center gap-5 md:relative">
-                <img src={Arrow} alt="" className="hidden lg:block md:absolute md:bottom-12 md:-left-12 md:-z-10 md:w-[55px] "/>
+                <img src={Arrow} alt="" className="hidden lg:block lg:absolute lg:bottom-5 lg:-left-16 lg:z-10 lg:w-[55px] "/>
                 <div className="text-primary font-bold text-sm dark:text-gray transition duration-500">
                     Hello,
                 </div>
