@@ -27,7 +27,7 @@ const ProjectsCard = () => {
             <div className="flex flex-col gap-12 md:grid md:grid-cols-1 lg:grid-cols-1 lg:gap-20">
                 {projects.map(({id,title,content,paragraph,image}) => {
                 return(
-                    <div key={id} className="flex flex-col gap-3 md:grid lg:grid-cols-2 md:grid-cols-1">
+                    <div key={id} className="flex flex-col gap-3 md:grid lg:grid-cols-2 md:grid-cols-1 transform transition duration-500 hover:scale-110">
                         <div className="lg:flex lg:flex-col lg:justify-between">
                             <div className="text-primary font-bold text-xl dark:text-white transition duration-500">
                                 {title}

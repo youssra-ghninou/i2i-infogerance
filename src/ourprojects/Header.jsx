@@ -15,10 +15,10 @@ const Header = () => {
                 <h2 className="font-normal text-gray text-base">
                 Our team helped alot of startup and company to realise their Products and helped thousnd of client to grow their business</h2>
                     <div className="lg:my-10">
-                        <StatsCard text="Lets talk" className="bg-red-500" />
+                        <StatsCard />
                     </div>
                 <div className="flex flex-col gap-3 lg:gap-7 md:flex-row md:gap-5 lg:flex-row lg:my-10">
-                    <TalkButton text="Lets talk" className="bg-red-500" />
+                    <TalkButton text="Lets talk" className="" />
                     <CheckServicesButton text="Check our Services" />
 
                 </div>
