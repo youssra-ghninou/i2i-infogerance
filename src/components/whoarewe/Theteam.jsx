@@ -12,7 +12,7 @@ const Theteam = () => {
                     Meet The Awesome and Creative members of Our Team
                 </div>
             </div>
-            <TeamCard className=""/>
+            <TeamCard className="transform transition duration-500 hover:scale-110"/>
         </div>
 
     );

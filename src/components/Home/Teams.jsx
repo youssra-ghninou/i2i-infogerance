@@ -15,7 +15,7 @@ const Teams = () => {
                     Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product
                 </div>
             </div>
-            <TeamCard className=""/>
+            <TeamCard className="transform transition duration-500 hover:scale-110"/>
         </div>
     );
 }

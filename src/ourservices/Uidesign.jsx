@@ -14,7 +14,7 @@ const UiDesign = () => {
       With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users
       </div>
       </div>
-      <OurServiceCard className=""/>
+      <OurServiceCard className=" transform transition duration-500 hover:scale-110"/>
     </div>
      );
 }
