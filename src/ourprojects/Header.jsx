@@ -14,11 +14,10 @@ const Header = () => {
                 </div>
                 <h2 className="font-normal text-gray text-base">
                 Our team helped alot of startup and company to realise their Products and helped thousnd of client to grow their business</h2>
-                <div className="flex flex-col gap-3 lg:gap-7 md:flex-row md:gap-5 lg:flex-row ">
-                    <StatsCard text="Lets talk" className="bg-red-500" />
-                </div>
-
-                <div className="flex flex-col gap-3 lg:gap-7 md:flex-row md:gap-5 lg:flex-row ">
+                    <div className="lg:my-10">
+                        <StatsCard text="Lets talk" className="bg-red-500" />
+                    </div>
+                <div className="flex flex-col gap-3 lg:gap-7 md:flex-row md:gap-5 lg:flex-row lg:my-10">
                     <TalkButton text="Lets talk" className="bg-red-500" />
                     <CheckServicesButton text="Check our Services" />
 

@@ -1,3 +1,4 @@
+import CheckProjectButton from "../buttons/CheckProjectButton"
 
 const ProjectsCard = () => {
     const projects = [{
@@ -23,11 +24,11 @@ const ProjectsCard = () => {
       },
     ];  
         return (
-            <div className="flex flex-col gap-12 md:grid md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex flex-col gap-12 md:grid md:grid-cols-1 lg:grid-cols-1 lg:gap-20">
                 {projects.map(({id,title,content,paragraph,image}) => {
                 return(
-                    <div key={id} className="flex flex-col gap-3 lg:flex-row">
-                        <div className="card lg:flex lg:flex-col">
+                    <div key={id} className="flex flex-col gap-3 md:grid lg:grid-cols-2 md:grid-cols-1">
+                        <div className="lg:flex lg:flex-col lg:justify-between">
                             <div className="text-primary font-bold text-xl dark:text-white transition duration-500">
                                 {title}
                             </div>
@@ -37,9 +38,15 @@ const ProjectsCard = () => {
                             <div className="font-normal text-gray text-base pb-5">
                                 {paragraph}
                             </div>
+                            <div className="hidden lg:block">
+                                <CheckProjectButton text="Check The project"/>
+                            </div>
                         </div>
-                        <div className=" ">
+                        <div className="lg:place-self-end">
                             <img className="" src={image} alt={content} />
+                            <div className="lg:hidden">
+                                <CheckProjectButton text="Check The project"/>
+                            </div>
                         </div>
                     </div>
                 );
