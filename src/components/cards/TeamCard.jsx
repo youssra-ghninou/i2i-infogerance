@@ -5,9 +5,9 @@ const TeamCard = (props) => {
     return (
         <div className={`flex flex-col gap-2`+ props.className}>
             <div className="md:relative">
-                <img src={Jamila} alt="" className='md:w-2/3 ' />
+                <img src={Jamila} alt="" className='md:w-2/3 md:absolute md:z-10' />
                 <img src={Titik} alt="" 
-                className='hidden md:block md:absolute md:-z-10 
+                className='hidden md:block md:absolute md:z-0 
                             md:right-6 md:-top-5 md:w-2/3'/>
             </div>
             <div className="text-dark font-bold text-base dark:text-white transition duration-500">

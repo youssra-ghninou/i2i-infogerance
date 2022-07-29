@@ -2,7 +2,7 @@ import OurServiceCard from "../components/cards/OurServiceCard";
  
 const UiDesign = () => {
     return ( 
-    <div className="flex flex-col my-20 gap-3 md:flex-row md:grid md:grid-cols-2 md:gap-12 ">
+    <div className="flex flex-col my-20 gap-3 md:flex-row md:grid md:grid-cols-2 md:gap-12 md:py-10">
       <div className="flex flex-col gap-3 md:gap-5">
       <div className="text-primary font-bold text-sm md:text-lg dark:text-white transition duration-500">
          Our Services

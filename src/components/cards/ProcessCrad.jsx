@@ -22,7 +22,7 @@ const ProcessCard = () => {
       ];
   
       return (
-        <div className="flex flex-col gap-11 md:grid md:grid-cols-2 lg:grid-cols-4 ">
+        <div className="flex flex-col gap-11 md:grid md:grid-cols-2 lg:grid-cols-4 lg:py-10">
             {services.map(({id,title,content}) => {
             return(
                 <div key={id} className="flex flex-col p-2 gap-2 ">

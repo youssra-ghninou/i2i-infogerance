@@ -4,7 +4,7 @@ import NavIttem from '../navitems/NavIttem';
 
 const Footer = () => {
     return (
-        <div className="bg-gray bg-opacity-10 px-2 -z-10 py-8 flex items-top gap-5 justify-center lg:gap-8">
+        <div className="bg-gray bg-opacity-10 px-2 -z-10 py-8 flex items-top gap-5 justify-center lg:gap-8 lg:py-10">
             <div className="flex-1 flex flex-col gap-5">
                 <div className="text-primary font-bold text-4xl dark:text-white transition duration-500">
                     I2I-Info
