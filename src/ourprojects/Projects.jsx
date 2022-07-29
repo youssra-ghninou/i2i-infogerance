@@ -5,7 +5,7 @@ const Projects = () => {
         <div className="flex flex-col gap-14">
             <ProjectsExploreCard />
             <div className="self-center ">
-            <ProjectsButton />
+            <ProjectsButton text="Explore More Projects"/>
             </div>
         </div>
     );
