@@ -34,7 +34,7 @@ const ProcessCard = () => {
                         {title}
                         </div>
                     </div>
-                    <div className="text-gray font-normal text-base">
+                    <div className="text-gray font-bold text-base">
                         {content}
                     </div>
                 </div>

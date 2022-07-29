@@ -39,7 +39,7 @@ const Navbar = () => {
                     <IconContext.Provider value={{className: "lg:hidden" }}>
                         <AiOutlineFundProjectionScreen />
                     </IconContext.Provider>
-                    <NavIttem content="Our Projects" href="/" className=""/>
+                    <Link to="/ourprojects">Our Projects</Link>       
                 </div>
                 <div className="flex items-center gap-3 w-40 lg:gap-0 lg:w-fit">
                     <IconContext.Provider value={{className: "lg:hidden" }}>
