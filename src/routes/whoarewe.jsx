@@ -7,7 +7,7 @@ const WhoAreWe = () => {
     return (
          <div className="w-full flex bg-white dark:bg-dark transition duration-500 justify-center">
          <div className="flex flex-col w-full bg-white dark:bg-dark font-poppins transition duration-500 max-w-5xl">
-           <div className="p-5 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
+           <div className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
              <Navbar />
              <Header />
              <Theteam />

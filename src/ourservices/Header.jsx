@@ -15,7 +15,6 @@ const Header = () => {
             With  Our Awesome team we offres a variaty of services from UI/UX design to Video Productions,Our Goal is to help you on your Road to Create your product</h2>
             <div className="flex flex-col gap-3 lg:gap-7 md:flex-row md:gap-5 lg:flex-row ">
                 <TalkButton text="Lets talk" className="bg-red-500" />
-                <CheckServicesButton text="Check our Services" />
             </div>
         </div>
     </div>
