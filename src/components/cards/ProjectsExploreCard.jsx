@@ -1,3 +1,4 @@
+
 const ProjectsCard = () => {
     const projects = [{
         id : 1,
@@ -25,20 +26,21 @@ const ProjectsCard = () => {
             <div className="flex flex-col gap-12 md:grid md:grid-cols-2 lg:grid-cols-3">
                 {projects.map(({id,title,content,paragraph,image}) => {
                 return(
-                    <div key={id} className="flex flex-col gap-3">
-                        <div className="text-primary font-bold text-xl dark:text-white transition duration-500">
-                            {title}
-                        </div>
-                        <div className="text-text font-extrabold dark:text-white transition text-base">
-                            {content}
-                        </div>
-                        <div className="font-normal text-gray text-base pb-5">
-                            {paragraph}
+                    <div key={id} className="flex flex-col gap-3 lg:flex-row">
+                        <div className="card lg:flex lg:flex-col">
+                            <div className="text-primary font-bold text-xl dark:text-white transition duration-500">
+                                {title}
+                            </div>
+                            <div className="text-text font-extrabold dark:text-white transition text-base">
+                                {content}
+                            </div>
+                            <div className="font-normal text-gray text-base pb-5">
+                                {paragraph}
+                            </div>
                         </div>
                         <div className=" ">
                             <img className="" src={image} alt={content} />
                         </div>
-
                     </div>
                 );
             })}
