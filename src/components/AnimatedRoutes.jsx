@@ -3,8 +3,8 @@ import App from '../App'
 import OurServices from '../routes/ourservices'
 import OurProjects from '../routes/ourprojects'
 import WhoAreWe from '../routes/whoarewe'
-import ContactUs from '../routes/contactus'
 import { AnimatePresence } from "framer-motion"
+import ContactUs from "../routes/contactus"
 
 const AnimatedRoutes = () => {
     const location = useLocation();
@@ -12,7 +12,7 @@ const AnimatedRoutes = () => {
       <AnimatePresence>
           exitBeforeEnter
           initial={false}
-          onExitComplete={() => window.scrollTo(0, 0)}>
+          onExitComplete={() => window.scrollTo(0, 0)}
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<App />}/>
             <Route path="whoarewe" element={<WhoAreWe />}/>
