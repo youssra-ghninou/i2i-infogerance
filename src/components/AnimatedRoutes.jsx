@@ -9,7 +9,7 @@ import ContactUs from "../routes/contactus"
 const AnimatedRoutes = () => {
     const location = useLocation();
     return (
-      <AnimatePresence>
+      <AnimatePresence
           exitBeforeEnter
           initial={false}
           onExitComplete={() => window.scrollTo(0, 0)}
