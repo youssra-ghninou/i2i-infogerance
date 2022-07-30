@@ -1,5 +1,7 @@
 import Footer from "../components/Home/Footer";
 import Navbar from "../components/Home/Navbar";
+import { motion } from "framer-motion"
+
 
 const ContactUs = () => {
     const variants = {

@@ -44,7 +44,7 @@ const Navbar = (props) => {
                     <IconContext.Provider value={{className: "lg:hidden" }}>
                         <AiOutlineContacts />
                     </IconContext.Provider>
-                    <NavLink className={(navData) => (navData.isActive ? 'text-black dark:text-white transition duration-500' : 'text-gray')} to="/contatctus">Contact Us</NavLink>       
+                    <NavLink className={(navData) => (navData.isActive ? 'text-black dark:text-white transition duration-500' : 'text-gray')} to="/contactus">Contact Us</NavLink>       
                 </div>
                 <div className="lg:hidden">
                     <DarkModeToggle />
