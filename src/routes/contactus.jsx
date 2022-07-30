@@ -1,6 +1,10 @@
 import Footer from "../components/Home/Footer";
 import Navbar from "../components/Home/Navbar";
 import { motion } from "framer-motion"
+import Header from "../contactus/Header";
+import Faq from "../contactus/Faq";
+import PopularQuestsButton from "../components/buttons/PopularQuestsButton";
+
 
 
 const ContactUs = () => {
@@ -22,6 +26,12 @@ const ContactUs = () => {
               exit="exit" // Exit state (used later) to variants.exit
               transition={{ type: 'linear' }} // Set the transition to linear 
               className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
+              <Header/>
+              <Faq />
+              <PopularQuestsButton text="Do You offer Software Development?" />
+              <PopularQuestsButton text="Do you offer Social Media Marketing?" />
+              <PopularQuestsButton text="Do you Offer pack Services?" />
+              <PopularQuestsButton text="How long it take to realise a project?" />
             </motion.div>
               <div className="z-10 flex flex-col gap-20 pt-5 bg-white dark:bg-dark transition duration-500 ">
                 <Footer />
