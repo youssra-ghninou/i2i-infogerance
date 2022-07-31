@@ -2,7 +2,6 @@ import Logo from '/images/logo.svg'
 import { AiOutlineClose, AiOutlineContacts, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMenuFold, AiOutlineTeam } from 'react-icons/ai';
 import { MdOutlineCleaningServices } from 'react-icons/md';
 import { IconContext } from "react-icons";
-import NavIttem from '../navitems/NavIttem';
 import { useState } from 'react';
 import DarkModeToggle from '../buttons/DarkModeToggle';
 import { NavLink } from "react-router-dom";
@@ -45,7 +44,7 @@ const Navbar = (props) => {
                     <IconContext.Provider value={{className: "lg:hidden" }}>
                         <AiOutlineContacts />
                     </IconContext.Provider>
-                    <NavIttem content="Contact Us" href="/" className=""/>
+                    <NavLink className={(navData) => (navData.isActive ? 'text-black dark:text-white transition duration-500' : 'text-gray')} to="/contactus">Contact Us</NavLink>       
                 </div>
                 <div className="lg:hidden">
                     <DarkModeToggle />
