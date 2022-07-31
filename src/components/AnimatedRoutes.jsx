@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
+import { Routes, Route, useLocation } from "react-router-dom"
 import App from '../App'
 import OurServices from '../routes/ourservices'
 import OurProjects from '../routes/ourprojects'
@@ -12,7 +12,7 @@ const AnimatedRoutes = () => {
       <AnimatePresence>
           exitBeforeEnter
           initial={false}
-          onExitComplete={() => window.scrollTo(0, 0)}
+          onExitComplete={() => window.scrollTo(0, 100)}
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<App />}/>
             <Route path="whoarewe" element={<WhoAreWe />}/>

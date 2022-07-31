@@ -21,14 +21,14 @@ const ProjectsCard = () => {
       },
     ];  
         return (
-            <div className="grid grid-cols-2 lg:gap-20 lg:mr-10 md:grid-cols-4 gap-10">
+            <div className="grid grid-cols-2 md:flex md:justify-between lg:justify-center lg:gap-16 lg:text- gap-10">
                 {projects.map(({id,title,content}) => {
                 return(
                     <div key={id} className="flex flex-col gap-5 items-start lg:items-center transform transition duration-500 hover:scale-110">
-                        <div className="text-primary font-bold text-lg dark:text-white transition duration-500 lg:w-[200px] ">
+                        <div className="text-primary font-bold text-lg dark:text-white transition duration-500">
                             {title}
                         </div>
-                        <div className="text-text font-extrabold text-4xl dark:text-white transition duration-500">
+                        <div className="text-text font-extrabold lg:self-start text-3xl dark:text-white transition duration-500">
                             {content}
                         </div>
                     </div>

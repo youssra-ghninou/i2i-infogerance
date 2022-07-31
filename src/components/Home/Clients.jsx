@@ -12,12 +12,12 @@ const Clients = () => {
                 Client We helped
             </div>
             <div className="flex items-center justify-between flex-wrap gap-5 md:gap-5">
-                <img src={Microsoft} className="w-1/4 md:w-3/12 lg:w-[12%]" alt="" />
-                <img src={Google} className="w-1/4 md:w-3/12 lg:w-[12%]" alt="" />
-                <img src={Yassir} className="w-1/4 md:w-3/12 lg:w-[12%]" alt="" />
-                <img src={Spotify} className="w-1/4 md:w-3/12 lg:w-[12%]" alt="" />
-                <img src={Tiktok} className="w-1/4 md:w-3/12 lg:w-[12%]" alt="" />
-                <img src={Tesla} className="w-1/4 md:w-3/12 lg:w-[12%]" alt="" />
+                <img src={Microsoft} className="w-1/4 h-auto md:w-3/12 lg:w-[12%]" alt="brands" />
+                <img src={Google} className="w-1/4 h-auto md:w-3/12 lg:w-[12%]" alt="brands" />
+                <img src={Yassir} className="w-1/4 h-auto md:w-3/12 lg:w-[12%]" alt="brands" />
+                <img src={Spotify} className="w-1/4 h-auto md:w-3/12 lg:w-[12%]" alt="brands" />
+                <img src={Tiktok} className="w-1/4 h-auto md:w-3/12 lg:w-[12%]" alt="brands" />
+                <img src={Tesla} className="w-1/4 h-auto md:w-3/12 lg:w-[12%]" alt="brands" />
             </div>
         </div>
     );

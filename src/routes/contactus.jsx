@@ -1,7 +1,7 @@
 import Footer from "../components/Home/Footer";
 import Navbar from "../components/Home/Navbar";
 import { motion } from "framer-motion"
-import Header from "../contactus/Header";
+import ContactForm from "../contactus/ContactForm";
 import Faq from "../contactus/Faq";
 import PopularQuestsButton from "../components/buttons/PopularQuestsButton";
 
@@ -26,10 +26,10 @@ const ContactUs = () => {
               exit="exit" // Exit state (used later) to variants.exit
               transition={{ type: 'linear' }} // Set the transition to linear 
               className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
-              <Header/>
-              <div className=" lg:flex lg:flex-row lg:items-center lg:pr-6 ">
+              <ContactForm/>
+              <div className=" lg:flex lg:flex-row lg:items-center">
                 <Faq />
-                <div className="lg:w-[750px] flex flex-col gap-6">
+                <div className="lg:w-[750px] flex flex-col gap-6 py-10 lg:py-0">
                   <PopularQuestsButton text="Do You offer Software Development?" />
                   <PopularQuestsButton text="Do you offer Social Media Marketing?" />
                   <PopularQuestsButton text="Do you Offer pack Services?" />
