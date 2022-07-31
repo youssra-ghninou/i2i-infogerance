@@ -11,7 +11,7 @@ const TestimonialCard = () => {
                     Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product
                     </div>
                     <div className="flex gap-2 items-center">
-                        <img src={Smail} alt="profile" className="" />
+                        <img src={Smail} alt="smail" className="w-auto h-auto" />
                         <div className="flex flex-col gap-2">
                             <div className="text-sm font-semibold text-black dark:text-white transition duration-500">
                                 Smail yefssah
@@ -27,7 +27,7 @@ const TestimonialCard = () => {
                     Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product
                     </div>
                     <div className="flex gap-2 items-center">
-                        <img src={Djamila} alt="profile" className="" />
+                        <img src={Djamila} alt="djamila" className="w-auto h-auto" />
                         <div className="flex flex-col gap-2">
                             <div className="text-sm font-semibold text-black dark:text-white transition duration-500">
                                 Djamila Malak
