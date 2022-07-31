@@ -12,19 +12,19 @@ const   Header = () => {
                 An expert at your services
                 </div>
                 <div>
-                    <div className="text-text font-bold text-xs dark:text-white transition duration-500"> Name</div>
+                    <div className="text-text font-bold text-xs dark:text-white transition duration-500 lg:text-left "> Name</div>
                     <ContactButton text="Your full Name"/>
                 </div>
                 <div>
-                    <div className="text-text font-bold text-xs dark:text-white transition duration-500">Email</div>
+                    <div className="text-text font-bold text-xs dark:text-white transition duration-500 lg:text-left">Email</div>
                     <ContactButton text="Your Email"/>
                 </div>
                 <div>
-                    <div className="text-text font-bold text-xs dark:text-white transition duration-500">Phone number</div>
+                    <div className="text-text font-bold text-xs dark:text-white transition duration-500 lg:text-left">Phone number</div>
                     <ContactButton text="Your phone number"/>
                 </div>
                 <div>
-                    <div className="text-text font-bold text-xs dark:text-white transition duration-500">Messages</div>
+                    <div className="text-text font-bold text-xs dark:text-white transition duration-500 lg:text-left">Messages</div>
                     <ContactButton text="What do you want to talk about?" />
                 </div>
 

@@ -27,11 +27,15 @@ const ContactUs = () => {
               transition={{ type: 'linear' }} // Set the transition to linear 
               className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
               <Header/>
-              <Faq />
-              <PopularQuestsButton text="Do You offer Software Development?" />
-              <PopularQuestsButton text="Do you offer Social Media Marketing?" />
-              <PopularQuestsButton text="Do you Offer pack Services?" />
-              <PopularQuestsButton text="How long it take to realise a project?" />
+              <div className=" lg:flex lg:flex-row lg:items-center lg:pr-6 ">
+                <Faq />
+                <div className="lg:w-[750px] flex flex-col gap-6">
+                  <PopularQuestsButton text="Do You offer Software Development?" />
+                  <PopularQuestsButton text="Do you offer Social Media Marketing?" />
+                  <PopularQuestsButton text="Do you Offer pack Services?" />
+                  <PopularQuestsButton text="How long it take to realise a project?" />
+                </div>
+              </div>
             </motion.div>
               <div className="z-10 flex flex-col gap-20 pt-5 bg-white dark:bg-dark transition duration-500 ">
                 <Footer />
