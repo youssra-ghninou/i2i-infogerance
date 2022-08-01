@@ -5,6 +5,7 @@ import Theteam from "../components/whoarewe/Theteam";
 import { motion } from "framer-motion"
 import TalkButton from "../components/buttons/TalkButton";
 import CheckServicesButton from "../components/buttons/CheckServicesButton";
+import { Link } from "react-router-dom";
 
 
 const WhoAreWe = () => {
@@ -27,12 +28,12 @@ const WhoAreWe = () => {
             className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
               <CommonHeader title="About Us" bigtitle="What we do is what make us Who we are" content="DigitUx is a Digital agencay founded 2022, that create User Centred Product that help her client to evolve ,our core idealogy is Perfection , our goal is to make usefull and easy to use products And help people to grow their business."/>
               <div className="flex flex-col gap-5 md:flex-row justify-center mb-10 mt-5">
-                <TalkButton text="Lets talk" className='w-[100%]' />
+                <Link to='/contactus'><TalkButton text="Lets talk" className='w-[100%]' /></Link>
                 <CheckServicesButton text="Check our Services" />
               </div>
               <Theteam />
           </motion.div>
-            <div className="z-10 flex flex-col gap-20 bg-white dark:bg-dark transition duration-500">
+            <div className="z-10 flex flex-col gap-20 bg-white dark:bg-dark transition duration-500 lg:mt-40">
               <Footer />
             </div>
         </div>

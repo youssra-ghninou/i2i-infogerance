@@ -3,6 +3,7 @@ import TalkButton from "../buttons/TalkButton"
 import HeaderImage from '/images/header.png'
 import Titik from '/images/Titik-titik.png'
 import Arrow from '/images/arrow.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -21,7 +22,7 @@ const Header = () => {
                 A talented team to help you in your journey on creating usefull and easy to use product
                 </h2>
                 <div className="flex flex-col gap-3 md:flex-row md:gap-5 lg:flex-row lg:gap-3">
-                    <TalkButton text="Lets talk" className="" />
+                    <Link to='/contactus'><TalkButton text="Lets talk" className="" /></Link>
                     <CheckServicesButton text="Check our Services" />
                 </div>
             </div>

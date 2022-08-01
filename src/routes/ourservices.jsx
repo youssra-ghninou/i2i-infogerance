@@ -7,6 +7,7 @@ import OurProcess from "../ourservices/Ourprocess";
 import { motion } from "framer-motion"
 import TalkButton from "../components/buttons/TalkButton";
 import CheckProjectButton from "../components/buttons/CheckProjectButton";
+import { Link } from "react-router-dom";
 
 
 const OurServices = () => {
@@ -29,7 +30,7 @@ const OurServices = () => {
             className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
                 <CommonHeader title="Our Services" bigtitle="Services We Offer" content="With  Our Awesome team we offres a variaty of services from UI/UX design to Video Productions,Our Goal is to help you on your Road to Create your product"/>
                 <div className="flex flex-col gap-5 md:flex-row justify-center">
-                  <TalkButton text="Lets talk" className='w-[100%]' />
+                  <Link to='/contactus'><TalkButton text="Lets talk" className='w-[100%]' /></Link>
                   <CheckProjectButton text="Check our Projects" />
               </div>
                 <OurProcess />

@@ -1,6 +1,7 @@
 import { IoIosSend } from 'react-icons/io';
 import { FiDribbble, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
-import NavIttem from '../navitems/NavIttem';
+import { NavLink } from "react-router-dom";
+
 
 const Footer = () => {
     return (
@@ -17,11 +18,26 @@ const Footer = () => {
                 <div className="text-dark font-semibold text-lg dark:text-white transition duration-500">
                     About
                 </div>
-                <NavIttem content="Home" href="/" className="text-dark font-normal text-sm dark:text-gray transition duration-500 "/>
-                <NavIttem content="Who are We" href="/" className="text-dark font-normal text-sm dark:text-gray transition duration-500 "/>
-                <NavIttem content="Our Services" href="/" className="text-dark font-normal text-sm dark:text-gray transition duration-500 "/>
-                <NavIttem content="Our Projects" href="/" className="text-dark font-normal text-sm dark:text-gray transition duration-500 "/>
-                <NavIttem content="Contact Us" href="/" className="text-dark font-normal text-sm dark:text-gray transition duration-500 "/>
+                <NavLink className={(navData) => (navData.isActive ? 'text-dark font-normal text-sm dark:text-white transition duration-500' : 'text-gray')} 
+                to="/">
+                    Home
+                </NavLink>{" "}               
+                <NavLink className={(navData) => (navData.isActive ? 'text-dark font-normal text-sm dark:text-white transition duration-500' : 'text-gray')} 
+                to="/whoarewe">
+                    Who are We
+                </NavLink>          
+                <NavLink className={(navData) => (navData.isActive ? 'text-dark font-normal text-sm dark:text-white transition duration-500' : 'text-gray')} 
+                to="/ourservices">
+                    Our Services
+                </NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'text-dark font-normal text-sm dark:text-white transition duration-500' : 'text-gray')} 
+                to="/ourprojects">
+                    Our Projects
+                </NavLink>
+                <NavLink className={(navData) => (navData.isActive ? 'text-dark font-normal text-sm dark:text-white transition duration-500' : 'text-gray')} 
+                to="/contactus">
+                    Contact Us
+                </NavLink>
             </div>
             <div className="flex-1 lg:flex flex-col gap-5 hidden">
                 <div className="text-dark font-semibold text-lg dark:text-white transition duration-500">
@@ -30,19 +46,31 @@ const Footer = () => {
                 <div className="text-dark font-normal flex flex-col gap-5 text-sm dark:text-gray transition duration-500">
                     <div className="flex items-center gap-3 w-40">
                         <FiFacebook />
-                        <NavIttem content="fb.com/DigitalUX" href="/" className=""/>
+                        <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
+                        to="/">
+                            fb.com/DigitalUX
+                        </NavLink>{" "}               
                     </div>
                     <div className="flex items-center gap-3 w-40">
                         <FiInstagram />
-                        <NavIttem content="@DigitalUX" href="/" className=""/>
+                        <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
+                        to="/">
+                            @DigitalUX
+                        </NavLink>             
                     </div>
                     <div className="flex items-center gap-3 w-40">
                         <FiTwitter />
-                        <NavIttem content="@DigitalUX" href="/" className=""/>
+                        <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
+                        to="/">
+                            @DigitalUX
+                        </NavLink>             
                     </div>
                     <div className="flex items-center gap-3 w-40">
                         <FiDribbble />
-                        <NavIttem content="@DigitalUx" href="/" className=" flex-1"/>
+                        <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
+                        to="/">
+                            @DigitalUX
+                        </NavLink>             
                     </div>
                 </div>
             </div>
@@ -54,10 +82,11 @@ const Footer = () => {
                 Need Answers? Need help ? Just email us 
                 </div>
                 <form action="" className='flex items-center lg:relative'>
-                    <input className='bg-white rounded-sm relative w-full text-sm text-left p-3 text-gray' type="submit" value="Your email" />
-                    <div className="absolute right-6 text-primary">
+                    <input className="placeholder:dark:text-gray placeholder:text-gray placeholder:text-xs placeholder:font-bold rounded-sm text-black dark:bg-white dark:bg-opacity-20 bg-white dark:text-white placeholder:transition placeholder:duration-500 form-input" 
+                        type="email" name="email" id="email" placeholder="Your email" /> 
+                    <button type='sunmit' className="absolute right-6 text-primary">
                         <IoIosSend />   
-                    </div>            
+                    </button>            
                 </form>
             </div>
         </div>
