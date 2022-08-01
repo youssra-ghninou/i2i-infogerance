@@ -6,6 +6,7 @@ import CommonHeader from "../components/CommonHeader";
 import TalkButton from "../components/buttons/TalkButton";
 import CheckServicesButton from "../components/buttons/CheckServicesButton";
 import StatsCard from "../components/cards/StatsCard";
+import { Link } from "react-router-dom";
 
 
 
@@ -34,7 +35,7 @@ const OurProjects = () => {
                   <StatsCard />
                 </div>
                 <div className="flex flex-col gap-5 md:flex-row justify-center mb-10 mt-5">
-                  <TalkButton text="Lets talk" className='w-[100%]' />
+                  <Link to='/contactus'><TalkButton text="Lets talk" className='w-[100%]' /></Link>
                   <CheckServicesButton text="Check our Services" />
               </div>
                 <Projects />

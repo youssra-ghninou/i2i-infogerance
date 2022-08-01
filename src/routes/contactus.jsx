@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import ContactForm from "../contactus/ContactForm";
 import Faq from "../contactus/Faq";
 import PopularQuestsButton from "../components/buttons/PopularQuestsButton";
+import DisclosureInfos from "../contactus/Disclosure";
 
 
 
@@ -29,11 +30,10 @@ const ContactUs = () => {
               <ContactForm/>
               <div className=" lg:flex lg:flex-row lg:items-center">
                 <Faq />
-                <div className="lg:w-[750px] flex flex-col gap-6 py-10 lg:py-0">
-                  <PopularQuestsButton text="Do You offer Software Development?" />
-                  <PopularQuestsButton text="Do you offer Social Media Marketing?" />
-                  <PopularQuestsButton text="Do you Offer pack Services?" />
-                  <PopularQuestsButton text="How long it take to realise a project?" />
+                <div className="lg:w-[750px] flex flex-col gap-6">
+                  <DisclosureInfos title="Do You offer Software Development?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
+                  <DisclosureInfos title="Do you Offer pack Services?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
+                  <DisclosureInfos title="How long it take to realise a project?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
                 </div>
               </div>
             </motion.div>
