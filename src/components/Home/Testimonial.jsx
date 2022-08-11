@@ -7,7 +7,7 @@ const Testimonial = () => {
                 Testimonial
             </div>
             <div className="px-5 font-bold text-xl text-black dark:text-white transition duration-500">
-                You still hesitate about working with Us ? <br /> Check what They say about Us
+                Are still hesitating about working with us ? <br /> Check what our clients say about Us
             </div>
             <div className="px-5 mt-10">
                 <TestimonialCard />

@@ -3,33 +3,33 @@ import ServicesButton from "../buttons/ServicesButton"
 const ServicesCard = () => {
     const services = [{
       id: 1,
-        title: 'UI/UX Design ,Web Design',
-        content: 'Makeing your product clean and easy to use it the important thing for us',
+        title: 'UI/UX Design, Web Design',
+        content: 'Making your product clean and easy to use, this is the most important thing for us',
       },
       {
         id: 2,
-        title: 'Web/App Development',
-        content: 'Our Team will use the top  technologies to develope your product',
+        title: 'Web/Mobile Development',
+        content: 'Our team will use the best technologies to develop your product',
       },
       {
         id: 3,
         title: 'Marketing Digital,Social Media ',
-        content: 'Grow your communty with our inbound marketing and social media merketing',
+        content: 'Grow your community with our inbound and social media merketing',
       },
       {
         id: 4,
-        title: 'Brand Stratgey &Art Diraction',
-        content: 'Help you to create an unique brand that stay in Clients Head',
+        title: 'Brand Strategy & Art Direction',
+        content: 'Help you to create an unique brand that will stick in your mind',
       },
       {
         id: 5,
         title: 'Visual Identity Logo Brand',
-        content: 'A logo Can make a big diffrance our team will Help you with that',
+        content: ' Our team will elp you create the best logo ever',
       },
       {
         id: 6,
         title: 'Video / Ads Production',
-        content: 'What better way to reach user then with a good video to win their trust',
+        content: 'With a better way to reach the user then with a good video to win their trust',
       },
     ];
     return (

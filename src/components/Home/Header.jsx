@@ -16,14 +16,14 @@ const Header = () => {
                     Hello,
                 </div>
                 <div className="text-text font-bold text-4xl dark:text-white transition duration-500">
-                    We Help People To Bring Their Ideas Alive 
+                    We help people to bring their ideas alive 
                 </div>
                 <h2 className="font-normal text-gray text-base">
-                A talented team to help you in your journey on creating usefull and easy to use product
+                A talented team to assist you on your journey
                 </h2>
                 <div className="flex flex-col gap-3 md:flex-row md:gap-5 lg:flex-row lg:gap-3">
-                    <Link to='/contactus'><TalkButton text="Lets talk" className="" /></Link>
-                    <CheckServicesButton text="Check our Services" />
+                    <Link to='/contactus'><TalkButton text="Let's talk" className="" /></Link>
+                    <CheckServicesButton text="Check Our Services" />
                 </div>
             </div>
             <div className=" hidden md:block md:relative lg:overflow-x-clip">

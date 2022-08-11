@@ -7,11 +7,11 @@ const OurProcess = () => {
                 Our Process
                 </div>
                 <div className="text-text font-bold text-4xl dark:text-white transition duration-500 ">
-                Our Working Process help you to get the best from our team skill
+                Our Working Process help you to get the best from our team skills
                 </div>
             </div>
             <h2 className="font-normal text-gray text-base lg:text-left lg:w-[850px]">
-            With Our team knowloadg of different process We Choose the perfect process to suit the Development of your Product 
+            With Our team knowledge of different process, we choose the perfect process to suit the development of your Product 
             </h2>
         </div>
     </div>

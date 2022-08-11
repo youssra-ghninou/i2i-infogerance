@@ -30,12 +30,12 @@ const OurProjects = () => {
               exit="exit" // Exit state (used later) to variants.exit
               transition={{ type: 'linear' }} // Set the transition to linear 
               className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
-                <CommonHeader title="Our Projects" bigtitle="Project We Realised" content="Our team helped alot of startup and company to realise their Products and helped thousnd of client to grow their business"/>
+                <CommonHeader title="Our Projects" bigtitle="Projects we realised" content="Our team helped a lot of startups and companies to realise their Products and helped many clients to grow their business"/>
                 <div className="lg:my-5">
                   <StatsCard />
                 </div>
                 <div className="flex flex-col gap-5 md:flex-row justify-center mb-10 mt-5">
-                  <Link to='/contactus'><TalkButton text="Lets talk" className='w-[100%]' /></Link>
+                  <Link to='/contactus'><TalkButton text="Let's talk" className='w-[100%]' /></Link>
                   <CheckServicesButton text="Check our Services" />
               </div>
                 <Projects />

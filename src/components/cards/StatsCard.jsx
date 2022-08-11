@@ -1,7 +1,7 @@
 const ProjectsCard = () => {
     const projects = [{
         id : 1,
-        title: 'Happy Client',
+        title: 'Satisfied Clients',
         content: '+150',
       },
       {
@@ -11,12 +11,12 @@ const ProjectsCard = () => {
       },
       {
         id : 3,
-        title: 'Solutions Created',
+        title: 'Solutions developed',
         content: '+10',
       },
       {
         id : 4,
-        title: 'Business Growed',
+        title: 'Business improved',
         content: '+25',
       },
     ];  

@@ -11,7 +11,7 @@ const UiDesign = () => {
          Ui /Ux , Web Design 
       </div>
       <div className="text-gray font-normal text-base">
-      With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users
+      With a team of the best Digital Product Designers in your hands , their goal is to create usefull and easy to use products for you potentials users
       </div>
       </div>
       <OurServiceCard className=" transform transition duration-500 hover:scale-110"/>

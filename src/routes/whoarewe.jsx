@@ -26,9 +26,9 @@ const WhoAreWe = () => {
             exit="exit" // Exit state (used later) to variants.exit
             transition={{ type: 'linear' }} // Set the transition to linear 
             className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
-              <CommonHeader title="About Us" bigtitle="What we do is what make us Who we are" content="DigitUx is a Digital agencay founded 2022, that create User Centred Product that help her client to evolve ,our core idealogy is Perfection , our goal is to make usefull and easy to use products And help people to grow their business."/>
+              <CommonHeader title="About Us" bigtitle="What we do is what makeS us Who we are" content="I2I is a Digital company that provides lifecycle IT consulting and support services, and helps businesses build everything from web and mobile apps to custom software platforms to meet unique needs."/>
               <div className="flex flex-col gap-5 md:flex-row justify-center mb-10 mt-5">
-                <Link to='/contactus'><TalkButton text="Lets talk" className='w-[100%]' /></Link>
+                <Link to='/contactus'><TalkButton text="Let's talk" className='w-[100%]' /></Link>
                 <CheckServicesButton text="Check our Services" />
               </div>
               <Theteam />

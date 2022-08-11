@@ -11,7 +11,7 @@ const Footer = () => {
                     I2I-Info
                 </div>
                 <div className="text-dark font-normal text-sm dark:text-gray transition duration-500 ">
-                    DigitUx is a Digital agencay that create User centred Product that help her client to evolve
+                    I2I is a Digital company that provides lifecycle IT consulting and support services, and helps businesses build everything from web and mobile apps to custom software platforms to meet unique needs. 
                 </div>
             </div>
             <div className="flex-1 lg:flex flex-col gap-5 hidden">
@@ -48,38 +48,38 @@ const Footer = () => {
                         <FiFacebook />
                         <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
                         to="/">
-                            fb.com/DigitalUX
+                            fb.com/I2I
                         </NavLink>{" "}               
                     </div>
                     <div className="flex items-center gap-3 w-40">
                         <FiInstagram />
                         <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
                         to="/">
-                            @DigitalUX
+                            @I2I
                         </NavLink>             
                     </div>
                     <div className="flex items-center gap-3 w-40">
                         <FiTwitter />
                         <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
                         to="/">
-                            @DigitalUX
+                            @I2I
                         </NavLink>             
                     </div>
                     <div className="flex items-center gap-3 w-40">
                         <FiDribbble />
                         <NavLink className="text-dark font-normal text-sm dark:text-gray transition duration-500" 
                         to="/">
-                            @DigitalUX
+                            @I2I
                         </NavLink>             
                     </div>
                 </div>
             </div>
             <div className="flex-1 flex flex-col gap-5">
                 <div className="text-dark font-semibold text-lg dark:text-white transition duration-500">
-                    Get in youch with Us
+                    Get in touch with Us
                 </div>
                 <div className="text-dark font-normal text-sm text-justify dark:text-gray transition duration-500">
-                Need Answers? Need help ? Just email us 
+                Need Answers ? Need help ? Just email us 
                 </div>
                 <form action="" className='flex items-center lg:relative'>
                     <input className="placeholder:dark:text-gray placeholder:text-gray placeholder:text-xs placeholder:font-bold rounded-sm text-black dark:bg-white dark:bg-opacity-20 bg-white dark:text-white placeholder:transition placeholder:duration-500 form-input" 

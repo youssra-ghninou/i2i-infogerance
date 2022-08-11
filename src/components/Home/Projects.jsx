@@ -9,7 +9,7 @@ const Projects = () => {
                     The work we realised
                 </div>
                 <div className="text-dark font-bold text-xl md:text-2xl md:font-extrabold md:w-9/12 dark:text-white transition duration-500 lg:w-1/2">
-                    The work we did that made our Client happy and satisfied
+                    The work we did made our Clients happy and very satisfied
                 </div>
             </div>
             <ProjectsCard />

@@ -31,9 +31,9 @@ const ContactUs = () => {
               <div className=" lg:flex lg:flex-row lg:items-center">
                 <Faq />
                 <div className="lg:w-[750px] flex flex-col gap-6">
-                  <DisclosureInfos title="Do You offer Software Development?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
-                  <DisclosureInfos title="Do you Offer pack Services?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
-                  <DisclosureInfos title="How long it take to realise a project?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
+                  <DisclosureInfos title="Do you offer Software Development?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
+                  <DisclosureInfos title="Do you offer pack services?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
+                  <DisclosureInfos title="How long it takes to realise a project?" content="Yes,we do offer Social Media marketing , we offer fb ads instgram ads ,google campagine , tiktok promotion ,and other social media plateforme "/>
                 </div>
               </div>
             </motion.div>

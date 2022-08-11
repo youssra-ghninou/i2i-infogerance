@@ -27,9 +27,9 @@ const OurServices = () => {
             exit="exit" // Exit state (used later) to variants.exit
             transition={{ type: 'linear' }} // Set the transition to linear 
             className="p-5 lg:p-0 flex flex-col gap-5 bg-white dark:bg-dark transition duration-500">
-                <CommonHeader title="Our Services" bigtitle="Services We Offer" content="With  Our Awesome team we offres a variaty of services from UI/UX design to Video Productions,Our Goal is to help you on your Road to Create your product"/>
+                <CommonHeader title="Our Services" bigtitle="Services We offer" content="With  Our Awesome team we offre a variety of services from UI/UX design to Security Consulting. Our Goal is to help you on your journey to create your special product"/>
                 <div className="flex flex-col gap-5 md:flex-row justify-center">
-                  <TalkButton text="Lets talk" className='w-[100%]' />
+                  <TalkButton text="Let's talk" className='w-[100%]' />
                   <CheckProjectButton text="Check our Projects" />
               </div>
                 <OurProcess />

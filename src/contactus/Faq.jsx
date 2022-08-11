@@ -6,10 +6,10 @@ const Faq = () => {
             FAQ
             </div>
             <div className="text-text font-bold text-4xl dark:text-white transition duration-500">
-            Here are Some Answer For  Frequntly asked Questions
+            Here are some answers for frequntly asked questions
             </div>
             <h2 className="font-normal text-gray text-base">
-            We got alot of Message With the same Questions so here are some fast answer for populare Question</h2>
+            We got a lot of messages with the same Questions, so here are some fast answers for popular Questions</h2>
         </div>
     </div>
 

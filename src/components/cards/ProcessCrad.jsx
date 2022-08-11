@@ -7,17 +7,17 @@ const ProcessCard = () => {
         {
           id: 2,
           title: 'Design',
-          content: 'User research helps us find out exactly how our target customers feel when interacting with a product ',
+          content: ' A process where designers create sustainable solutions and optimal experiences for both customers in unique contexts and any service providers involved',
         },
         {
           id: 3,
-          title: 'Test',
-          content: 'User research helps us find out exactly how our target customers feel when interacting with a product ',
+          title: 'Testing services',
+          content: 'A whole range of software testing services of all types to ensure applications work as they are intended no matter be the conditions or environments delivering superior user experience.',
         },
         {
           id: 4,
           title: 'Implementation',
-          content: 'User research helps us find out exactly how our target customers feel when interacting with a product ',
+          content: 'Our team guides organizations through each stage of a project lifecycle and offers industry-skilled, product-certified implementation consulting services experts',
         },
       ];
   

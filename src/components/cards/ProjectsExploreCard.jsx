@@ -4,22 +4,22 @@ const ProjectsCard = () => {
     const projects = [{
         id : 1,
         title: 'UI/UX ',
-        content: 'Delex Relay , a delivery platfrome',
-        paragraph:"Delex is a Delivery Platforme for bussiness owner And indivudial who want to send packages from a point to an other ,Delex offer a tracking system too ",
+        content: 'Delex Relay , a delivery platfrom',
+        paragraph:"Delex is a Delivery Platform for bussiness owners And individuals who want to send packages from a point to an other, Delex offer a tracking system too ",
         image : '/images/delex.png',
       },
       {
         id : 2,
         title: 'Web/App Development',
-        content: 'Cooke Me ,Fresh food At your Home',
-        paragraph:"Cooke me is an platform that offer fresh meal with a cheap price and allow indivudial to sell their meals  ",
+        content: 'Cooke Me, Fresh food At your Home',
+        paragraph:"Cooke me is a platform that offers fresh meals with a cheap price and allows individuals to sell their meals  ",
         image : '/images/cookeme.png',
       },
       {
         id : 3,
         title: 'UI/UX Design',
-        content: 'ADOC,Your Online Medical Appoinments',
-        paragraph:"ADOC Is an online Medical appoinment That allow user To take an appoinment with a doctor , it alos work as a medical files Holder ",
+        content: 'ADOC, Your Online Medical Appoinments',
+        paragraph:"ADOC Is an online Medical appoinment That allows users to take an appoinment with a doctor, it also works as a medical files Holder ",
         image : '/images/booking.png',
       },
     ];  
