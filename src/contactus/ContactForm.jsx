@@ -34,7 +34,7 @@ const   ContactForm = () => {
                     </div>
                     <div className="flex flex-col gap-5 lg:gap-1"> 
                         <div className="text-black transition duration-500 dark:text-white font-bold text-xs "> 
-                            Messages 
+                            Message 
                         </div> 
                         <textarea placeholder="What do you want to talk about?" name="Messages" id="Messages" cols="" rows="3" className="placeholder:dark:text-gray placeholder:text-gray placeholder:text-xs placeholder:font-bold rounded-sm text-black dark:bg-white dark:bg-opacity-20 bg-white dark:text-white placeholder:transition placeholder:duration-500 form-input"></textarea>
                     </div>
